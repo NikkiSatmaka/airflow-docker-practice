@@ -7,6 +7,8 @@ channels:
 dependencies:
   - pip
   - airflow
+  - apache-airflow-providers-postgres
+  - apache-airflow-providers-amazon
   # - jupyter
   # - mypy
   # - tqdm
