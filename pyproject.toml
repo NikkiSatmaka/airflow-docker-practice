@@ -1,0 +1,14 @@
+[project]
+name = "airflow-docker-practice"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Nikki Satmaka", email = "30800020+NikkiSatmaka@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
