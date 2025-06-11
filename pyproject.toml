@@ -7,7 +7,12 @@ authors = [
     { name = "Nikki Satmaka", email = "30800020+NikkiSatmaka@users.noreply.github.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "apache-airflow>=3.0.2",
+    "apache-airflow-providers-amazon>=9.8.0",
+    "apache-airflow-providers-google>=15.1.0",
+    "apache-airflow-providers-postgres>=6.2.0",
+]
 
 [build-system]
 requires = ["hatchling"]
